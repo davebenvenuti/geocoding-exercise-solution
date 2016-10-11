@@ -1,0 +1,21 @@
+{
+  "name": "geocoding-exercise-solution",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha \"test/**/*_test.*\""
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "expect.js": "^0.3.1",
+    "mocha": "^3.1.2",
+    "replay": "^2.1.2"
+  },
+  "dependencies": {
+    "bluebird": "^3.4.6",
+    "csv-parse": "^1.1.7",
+    "request": "^2.75.0"
+  }
+}
