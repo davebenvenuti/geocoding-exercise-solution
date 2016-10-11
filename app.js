@@ -3,6 +3,7 @@ var app = express();
 
 var geohash = require('./geohash');
 
+// TODO this has not been tested at all yet
 app.get('/geohash', function (req, res) {
     geohash.generate(req.params.lat, req.params.lon)
         .then(function(results) {
